@@ -2,21 +2,22 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.dark-blue{
+.dark-blue, .footer{
     background-color: #1F2937; 
 }
 
-.header{
+.header, .footer, .light-blue{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding:10px;
 }
 
 a{
     text-decoration: none; 
 }
 
-.header-links a, .left p, img, button{
+.header-links a, .left p, img, button, .footer{
     font-size: 18px;   
     color: #E5E7EB;
 }
@@ -37,7 +38,7 @@ a{
     font-weight: 900;
 }
 
-.dark-blue-container, .white{
+.dark-blue-container, .white, .last{
     display:flex;
     justify-content: space-around;
     padding: 20px;
@@ -51,7 +52,7 @@ a{
     align-items: center;
 }
 
-button{
+button, .light-blue{
     background-color: #3882F6;
     width: 90px;
     border-radius: 8px;
@@ -110,6 +111,17 @@ h2{
 }
 
 .quote-author{
-    font-weight: bold;
     text-align: right;
+}
+
+.quote-author, .call-to-action{
+    font-weight: bold;
+}
+
+.light-blue button{
+    border-color: white;
+}
+
+.light-blue{
+    flex: 1;
 }
