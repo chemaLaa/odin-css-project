@@ -76,7 +76,7 @@ img{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
 }
 
 .square-img{
@@ -88,4 +88,28 @@ img{
 
 .img-subtext{
     width: 180px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.grey{
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.quote-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight:lighter;
+}
+
+.quote-author{
+    font-weight: bold;
+    text-align: right;
 }
